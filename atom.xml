@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+    <title><![CDATA[Vladyslav Burakov]]></title>
+    <link href="http:///atom.xml" rel="self"/>
+    <link href="http:///"/>
+    <updated>2015-03-04T00:10:32+02:00</updated>
+    <id>http:///</id>
+    <author>
+        <name><![CDATA[Vladyslav Burakov]]></name>
+        
+    </author>
+    <generator uri="http://octopress.org/">Octopress</generator>
+
+    
+    <entry>
+        <title type="html"><![CDATA[KISS is your way to success]]></title>
+        <link href="http:///blog/2015/03/02/kiss-is-your-way-to-success/"/>
+        <updated>2015-03-02T20:31:24+02:00</updated>
+        <id>http:///blog/2015/03/02/kiss-is-your-way-to-success</id>
+        <content type="html"><![CDATA[<p>Want to write clean efficient code just like I do? Let me give you a KISS!</p>
+
+<p>Don&rsquo;t be shy, come closer! I won&rsquo;t bite you.</p>
+
+<p>The <em>KISS</em> stands for <em>&ldquo;Keep It Simple, Stupid!&rdquo;</em></p>
+
+<p>What it basically means is that while making your code flexible and extensible don&rsquo;t forget to make it simple.</p>
+
+<p>I&rsquo;d been thinking for a while about how to find the perfect complexity of my code to make it useful not only for concrete practical purpose, but also to cover all its possible usages in case of reusing it later. So a was searching the point when code becomes <em>complete</em>. When there is nothing to add internally.</p>
+
+<p>What I found was that there is an <em>unlimited amount</em> of ways to make your code more flexible by providing additional complexity. But that is not what you want to do. The thing is to make it useful enough you don&rsquo;t need to add anything, but also whittle it down so much you cannot cut it any more.</p>
+
+<p>Eventually, simplicity is a good thing. It&rsquo;s a key property which all pieces of large systems must have to allows it to be maintainable.</p>
+
+<p>You should always keep the KISS principle in your mind to become a successive programmer.</p>
+
+<p>That was a programming trivia for today.</p>
+
+<h4>Solution of the day</h4>
+
+<p>Given a string containing letter, digit, and other characters, write a function to check palindrome for only letter and digit. The implementation need to be in-place, no extra memory is allowed to create another string or array.</p>
+
+<p>For example:</p>
+
+<ul>
+<li>&ldquo;ABA&rdquo; is palindrome</li>
+<li>&ldquo;A!#A&rdquo; is palindrome</li>
+<li>&ldquo;A man, a plan, a canal, Panama!&rdquo; is palindrome</li>
+</ul>
+
+
+<p>My solution is:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">public</span> <span class="kd">static</span> <span class="kt">boolean</span> <span class="nf">isPalindrome</span><span class="o">(</span><span class="n">String</span> <span class="n">s</span><span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>    <span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+</span><span class='line'>    <span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="na">length</span><span class="o">()</span> <span class="o">-</span> <span class="mi">1</span><span class="o">;</span>
+</span><span class='line'>    <span class="k">while</span> <span class="o">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="n">j</span><span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>        <span class="k">while</span> <span class="o">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="n">s</span><span class="o">.</span><span class="na">length</span><span class="o">()</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="n">counted</span><span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">i</span><span class="o">)))</span> <span class="o">{</span>
+</span><span class='line'>            <span class="n">i</span><span class="o">++;</span>
+</span><span class='line'>        <span class="o">}</span>
+</span><span class='line'>        <span class="k">while</span> <span class="o">(</span><span class="n">j</span> <span class="o">&gt;=</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="n">counted</span><span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">j</span><span class="o">)))</span> <span class="o">{</span>
+</span><span class='line'>            <span class="n">j</span><span class="o">--;</span>
+</span><span class='line'>        <span class="o">}</span>
+</span><span class='line'>        <span class="k">if</span> <span class="o">(</span><span class="n">i</span> <span class="o">&gt;=</span> <span class="n">s</span><span class="o">.</span><span class="na">length</span><span class="o">()</span> <span class="o">||</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>            <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+</span><span class='line'>        <span class="o">}</span>
+</span><span class='line'>        <span class="k">if</span> <span class="o">(!</span><span class="n">areSame</span><span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">i</span><span class="o">),</span> <span class="n">s</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">j</span><span class="o">)))</span> <span class="o">{</span>
+</span><span class='line'>            <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+</span><span class='line'>        <span class="o">}</span>
+</span><span class='line'>        <span class="n">i</span><span class="o">++;</span>
+</span><span class='line'>        <span class="n">j</span><span class="o">--;</span>
+</span><span class='line'>    <span class="o">}</span>
+</span><span class='line'>    <span class="k">return</span> <span class="kc">true</span><span class="o">;</span>
+</span><span class='line'><span class="o">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="kd">private</span> <span class="kd">static</span> <span class="kt">boolean</span> <span class="nf">counted</span><span class="o">(</span><span class="kt">char</span> <span class="n">ch</span><span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>    <span class="kt">char</span> <span class="n">nc</span> <span class="o">=</span> <span class="n">normalize</span><span class="o">(</span><span class="n">ch</span><span class="o">);</span>
+</span><span class='line'>    <span class="k">return</span> <span class="n">nc</span> <span class="o">&gt;=</span> <span class="sc">&#39;a&#39;</span> <span class="o">&amp;&amp;</span> <span class="n">nc</span> <span class="o">&lt;=</span> <span class="sc">&#39;z&#39;</span> <span class="o">||</span> <span class="n">nc</span> <span class="o">&gt;=</span> <span class="sc">&#39;0&#39;</span> <span class="o">&amp;&amp;</span> <span class="n">nc</span> <span class="o">&lt;=</span> <span class="sc">&#39;9&#39;</span><span class="o">;</span>
+</span><span class='line'><span class="o">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="kd">private</span> <span class="kd">static</span> <span class="kt">boolean</span> <span class="nf">areSame</span><span class="o">(</span><span class="kt">char</span> <span class="n">ch1</span><span class="o">,</span> <span class="kt">char</span> <span class="n">ch2</span><span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>    <span class="k">return</span> <span class="nf">normalize</span><span class="o">(</span><span class="n">ch1</span><span class="o">)</span> <span class="o">==</span> <span class="n">normalize</span><span class="o">(</span><span class="n">ch2</span><span class="o">);</span>
+</span><span class='line'><span class="o">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="kd">private</span> <span class="kd">static</span> <span class="kt">char</span> <span class="nf">normalize</span><span class="o">(</span><span class="kt">char</span> <span class="n">ch</span><span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>    <span class="k">return</span> <span class="n">Character</span><span class="o">.</span><span class="na">toLowerCase</span><span class="o">(</span><span class="n">ch</span><span class="o">);</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h4>Inspiration share</h4>
+
+<p>Today&rsquo;s winner in <em>inspiration share</em> nomination is <strong><em>Friends</em></strong> sitcom. Check it out!</p>
+
+<p>That&rsquo;s all, folks! See you tomorrow! And remember: what is love? Programming is our true love!</p>
+]]></content>
+    </entry>
+    
+</feed>
