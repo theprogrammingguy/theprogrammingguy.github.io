@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http:///blog/2015/03/02/kiss-is-your-way-to-success/</loc>
+    <loc>http://vladyslav.org/blog/2015/03/03/the-law-of-the-universe/</loc>
+    <lastmod>2015-03-03T22:49:51+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://vladyslav.org/blog/2015/03/02/kiss-is-your-way-to-success/</loc>
     <lastmod>2015-03-02T20:31:24+02:00</lastmod>
   </url>
   <url>
-    <loc>http:///archives/</loc>
-    <lastmod>2015-03-04T00:18:00+02:00</lastmod>
+    <loc>http://vladyslav.org/archives/</loc>
+    <lastmod>2015-03-04T21:21:22+02:00</lastmod>
   </url>
   <url>
-    <loc>http:///</loc>
-    <lastmod>2015-03-04T00:18:00+02:00</lastmod>
+    <loc>http://vladyslav.org/</loc>
+    <lastmod>2015-03-04T21:21:22+02:00</lastmod>
   </url>
   <url>
-    <loc>http:///blog/archives/</loc>
-    <lastmod>2015-03-04T00:18:00+02:00</lastmod>
+    <loc>http://vladyslav.org/blog/archives/</loc>
+    <lastmod>2015-03-04T21:21:22+02:00</lastmod>
   </url>
   <url>
-    <loc>http:///blog/</loc>
-    <lastmod>2015-03-04T00:18:00+02:00</lastmod>
+    <loc>http://vladyslav.org/blog/</loc>
+    <lastmod>2015-03-04T21:21:22+02:00</lastmod>
   </url>
 </urlset>
