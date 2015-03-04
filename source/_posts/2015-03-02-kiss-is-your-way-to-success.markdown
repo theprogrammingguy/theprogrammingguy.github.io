@@ -26,7 +26,7 @@ That was a programming trivia for today.
 
 #### Solution of the day
 
-Given a string containing letter, digit, and other characters, write a function to check palindrome for only letter and digit. The implementation need to be in-place, no extra memory is allowed to create another string or array. 
+Given a string containing letters, digits and other characters, write a function to check palindrome for only letters and digits. The implementation need to be in-place, no extra memory is allowed. 
 
 For example:  
 
@@ -73,8 +73,6 @@ private static char normalize(char ch) {
 }
 ```
 
-#### Inspiration share
-
-Today's winner in *inspiration share* nomination is ***Friends*** sitcom. Check it out!
+Today's winner in ***inspiration share*** nomination is **Friends** sitcom. Check it out!
 
 That's all, folks! See you tomorrow! And remember: what is love? Programming is our true love!

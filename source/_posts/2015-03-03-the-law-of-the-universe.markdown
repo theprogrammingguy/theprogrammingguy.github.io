@@ -34,8 +34,9 @@ That was a programming trivia for today.
 You are given an unsorted sequence of integers 'a'. Find the longest subsequence 'b' such that elements of this subsequence are strictly increasing numbers. Elements in the subsequence 'b' must appear in the same relative order as in the sequence 'a'. You may assume that 'a' can fit to the memory.
 
 Example:
-input: a = [-1 2 100 100 101 3 4 5 -7]
-output: b = [-1 2 3 4 5]
+
+* input: a = [-1 2 100 100 101 3 4 5 -7]
+* output: b = [-1 2 3 4 5]
 
 ``` java
 public static int[] longestIncreasingSubsequence(int[] a) {
