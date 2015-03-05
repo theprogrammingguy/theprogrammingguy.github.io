@@ -4,7 +4,7 @@
     <title><![CDATA[Vladyslav Burakov]]></title>
     <link href="http://vladyslav.org/atom.xml" rel="self"/>
     <link href="http://vladyslav.org/"/>
-    <updated>2015-03-04T21:21:22+02:00</updated>
+    <updated>2015-03-05T23:31:05+02:00</updated>
     <id>http://vladyslav.org/</id>
     <author>
         <name><![CDATA[Vladyslav Burakov]]></name>
@@ -12,6 +12,119 @@
     </author>
     <generator uri="http://octopress.org/">Octopress</generator>
 
+    
+    <entry>
+        <title type="html"><![CDATA[Do it wrong!]]></title>
+        <link href="http://vladyslav.org/blog/2015/03/04/do-it-wrong/"/>
+        <updated>2015-03-04T22:47:02+02:00</updated>
+        <id>http://vladyslav.org/blog/2015/03/04/do-it-wrong</id>
+        <content type="html"><![CDATA[<p>Hi there!</p>
+
+<p>I&rsquo;ve got a confession to make. I&rsquo;m not a native English speaker.</p>
+
+<p>It may be obvious by the way I write. There might be a lot of mistakes in my writing, which I overlooked, although I&rsquo;m really pedantic when it comes to revising my work before publishing.</p>
+
+<p>Some mistakes are there because I just didn&rsquo;t notice them. Others are because I don&rsquo;t have enough knowledge or practice and couldn&rsquo;t spot them even if I was pointed on the sentences in which they occurs.</p>
+
+<p>Frankly speaking, I&rsquo;m not afraid of mistakes. And you shouldn&rsquo;t be too. They are an unavoidable aspect of learning process.</p>
+
+<p>I&rsquo;ve found recently that while doing my daily routine I have epiphany moments when I suddenly realise I&rsquo;ve made a mistake in my English. These moments are usually happen when I see or hear the correct version of what I tried to say. Sometimes they happen without a reason.</p>
+
+<p>Here is my point. If I hadn&rsquo;t done those mistakes, I wouldn&rsquo;t have had these moments of realization.</p>
+
+<p>Obviously, you cannot choose between making or not making a mistake. However, you can choose between doing something wrong or not doing it at all.</p>
+
+<p>My answer is <strong>do it wrong!</strong></p>
+
+<p>Of course, you don&rsquo;t want to put your money or reputation on that. Just make sure you won&rsquo;t suffer in case of a failure.</p>
+
+<p>If you think your speaking skills are not good enough for public speaking, practice on your friend, cat, dog, favorite toy or even in front of your webcam.</p>
+
+<p>If you want to create a good game, but don&rsquo;t feel confident in your skills, create a bad one! Create ten bad games! Create a worstest game ever! It will be an incredibly useful experience.</p>
+
+<p>Remember, at some moments of your learning process it&rsquo;s more helpful to <em>start doing</em> that to <em>keep studying</em>.</p>
+
+<p>That was a programming trivia for today.</p>
+
+<h4>Solution of the day</h4>
+
+<p>Write a program that answers YES/NO search queries containing * placeholders.</p>
+
+<p>Example: if the data you have is (hazem, ahmed, moustafa, fizo), then you should answer as follows for:</p>
+
+<ul>
+<li>ahmed: YES</li>
+<li>m**stafa: YES</li>
+<li>fizoo: NO</li>
+<li>fizd: NO</li>
+<li>*****: YES</li>
+<li>****: YES </li>
+<li>**: NO</li>
+</ul>
+
+
+<p>Your program should be able to answer each search query in O(1)</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">public</span> <span class="kd">class</span> <span class="nc">PlaceholderSearchSet</span> <span class="o">{</span>
+</span><span class='line'>    <span class="kd">private</span> <span class="kd">final</span> <span class="n">Set</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span> <span class="n">set</span> <span class="o">=</span> <span class="k">new</span> <span class="n">HashSet</span><span class="o">&lt;&gt;();</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">append</span><span class="o">(</span><span class="n">String</span> <span class="n">word</span><span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>        <span class="n">appendRecursively</span><span class="o">(</span><span class="n">word</span><span class="o">,</span> <span class="mi">0</span><span class="o">);</span>
+</span><span class='line'>    <span class="o">}</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="kd">private</span> <span class="kt">void</span> <span class="nf">appendRecursively</span><span class="o">(</span><span class="n">String</span> <span class="n">word</span><span class="o">,</span> <span class="kt">int</span> <span class="n">offset</span><span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>        <span class="k">if</span> <span class="o">(</span><span class="n">offset</span> <span class="o">==</span> <span class="n">word</span><span class="o">.</span><span class="na">length</span><span class="o">())</span> <span class="o">{</span>
+</span><span class='line'>            <span class="n">set</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">word</span><span class="o">);</span>
+</span><span class='line'>        <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+</span><span class='line'>            <span class="n">appendRecursively</span><span class="o">(</span><span class="n">word</span><span class="o">,</span> <span class="n">offset</span> <span class="o">+</span> <span class="mi">1</span><span class="o">);</span>
+</span><span class='line'>            <span class="n">appendRecursively</span><span class="o">(</span>
+</span><span class='line'>                    <span class="n">replaceWithPlaceholder</span><span class="o">(</span><span class="n">word</span><span class="o">,</span> <span class="n">offset</span><span class="o">),</span>
+</span><span class='line'>                    <span class="n">offset</span> <span class="o">+</span> <span class="mi">1</span><span class="o">);</span>
+</span><span class='line'>        <span class="o">}</span>
+</span><span class='line'>    <span class="o">}</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="kd">private</span> <span class="n">String</span> <span class="nf">replaceWithPlaceholder</span><span class="o">(</span><span class="n">String</span> <span class="n">word</span><span class="o">,</span> <span class="kt">int</span> <span class="n">i</span><span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>        <span class="k">return</span> <span class="n">word</span><span class="o">.</span><span class="na">substring</span><span class="o">(</span><span class="mi">0</span><span class="o">,</span> <span class="n">i</span><span class="o">)</span> <span class="o">+</span> <span class="sc">&#39;*&#39;</span> <span class="o">+</span> <span class="n">word</span><span class="o">.</span><span class="na">substring</span><span class="o">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="o">);</span>
+</span><span class='line'>    <span class="o">}</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">contains</span><span class="o">(</span><span class="n">String</span> <span class="n">word</span><span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>        <span class="k">return</span> <span class="n">set</span><span class="o">.</span><span class="na">contains</span><span class="o">(</span><span class="n">word</span><span class="o">);</span>
+</span><span class='line'>    <span class="o">}</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Today&rsquo;s <strong><em>inspiration share</em></strong> is <strong>On Writing</strong> book by <em>Stephen King</em>.</p>
+
+<p>That’s all, folks! See you tomorrow! And remember: what is love? Programming is our true love!</p>
+]]></content>
+    </entry>
     
     <entry>
         <title type="html"><![CDATA[The law of the universe]]></title>
