@@ -18,7 +18,7 @@ Have you ever made such mistakes? You cannot figure out why your code doesn't wo
 
 That drives you crazy. You spend plenty of time just to find you've done a really stupid mistake.
 
-Does it sound familiar to you? Frankly, I made such mistake today.
+Does it sound familiar to you? I made one of these just today.
 
 These mistakes have an important property, which makes them different from the first type.
 
@@ -26,7 +26,7 @@ These mistakes have an important property, which makes them different from the f
 
 It may or may not be obvious until you make it plain, but it's impossible to write code without bugs! Even carefully reviewing your changes won't help you much.
 
-Are you still not convinced? Let me prove my point. Write a solution for the problem you can find further in this post. There is a single limitation: write it at once in a text editor without syntax highlighting and don't run it until you are sure you've finished. If your program works correctly without making changes, that will be something really impressive!
+Are you not convinced? Let me prove my point. Write a solution for the problem you can find further in this post. There is a single limitation: write it at once in a text editor without syntax highlighting and don't run it until you are sure you've finished. If your program works correctly without making changes, that will be something really impressive!
 
 However, it's not about writing a bug-free code. It is about accepting the fact most of our newly written code contains mistakes and dealing with it. It's something that proves the necessity of unit testing and need of reviewing pieces of another's writing.
 

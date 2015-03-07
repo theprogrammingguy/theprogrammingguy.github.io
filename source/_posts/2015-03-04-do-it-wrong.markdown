@@ -30,7 +30,7 @@ If you think your speaking skills are not good enough for public speaking, pract
 
 If you want to create a good game, but don't feel confident in your skills, create a bad one! Create ten bad games! Create a worstest game ever! It will be an incredibly useful experience.
 
-Remember, at some moments of your learning process it's more helpful to *start doing* that to *keep studying*.
+Remember, at some moments of your learning process it's more helpful to *start doing* than to *keep studying*.
 
 That was a programming trivia for today.
 
