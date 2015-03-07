@@ -4,7 +4,7 @@
     <title><![CDATA[Vladyslav Burakov]]></title>
     <link href="http://vladyslav.org/atom.xml" rel="self"/>
     <link href="http://vladyslav.org/"/>
-    <updated>2015-03-05T23:32:35+02:00</updated>
+    <updated>2015-03-06T23:58:19+02:00</updated>
     <id>http://vladyslav.org/</id>
     <author>
         <name><![CDATA[Vladyslav Burakov]]></name>
@@ -12,6 +12,106 @@
     </author>
     <generator uri="http://octopress.org/">Octopress</generator>
 
+    
+    <entry>
+        <title type="html"><![CDATA[Unavoidable mistakes]]></title>
+        <link href="http://vladyslav.org/blog/2015/03/05/unavoidable-mistakes/"/>
+        <updated>2015-03-05T21:39:54+02:00</updated>
+        <id>http://vladyslav.org/blog/2015/03/05/unavoidable-mistakes</id>
+        <content type="html"><![CDATA[<p>Hello!</p>
+
+<p><a href="http://vladyslav.org/blog/2015/03/04/do-it-wrong/">Earlier</a> I mentioned two types of mistakes.</p>
+
+<p>Some of them you do because of simple lack of knowledge. I <a href="http://vladyslav.org/blog/2015/03/04/do-it-wrong/">suggested</a> you not to worry about them.</p>
+
+<p>Today I want to talk about second type of mistakes. You don&rsquo;t understand you&rsquo;ve done them and they somehow stay invisible to you for a certain period of time.</p>
+
+<p>Have you ever made such mistakes? You cannot figure out why your code doesn&rsquo;t work. It seems to be correct, but you keep getting an error. You try debugging it, but it appears to be the perfect time for debugger to start fooling around, so it refuses to see your breakpoints.</p>
+
+<p>That drives you crazy. You spend plenty of time just to find you&rsquo;ve done a really stupid mistake.</p>
+
+<p>Does it sound familiar to you? Frankly, I made such mistake today.</p>
+
+<p>These mistakes have an important property, which makes them different from the first type.</p>
+
+<p><strong>They are unavoidable!</strong></p>
+
+<p>It may or may not be obvious until you make it plain, but it&rsquo;s impossible to write code without bugs! Even carefully reviewing your changes won&rsquo;t help you much.</p>
+
+<p>Are you still not convinced? Let me prove my point. Write a solution for the problem you can find further in this post. There is a single limitation: write it at once in a text editor without syntax highlighting and don&rsquo;t run it until you are sure you&rsquo;ve finished. If your program works correctly without making changes, that will be something really impressive!</p>
+
+<p>However, it&rsquo;s not about writing a bug-free code. It is about accepting the fact most of our newly written code contains mistakes and dealing with it. It&rsquo;s something that proves the necessity of unit testing and need of reviewing pieces of another&rsquo;s writing.</p>
+
+<p>That was a programming trivia for today.</p>
+
+<h4>Solution of the day</h4>
+
+<p>Inplace reverse a sentence containing english words and spaces between them.</p>
+
+<p>Example:</p>
+
+<ul>
+<li>input &ldquo;I wish you a merry Christmas&rdquo;</li>
+<li>output &ldquo;Christmas merry a you wish I&rdquo;</li>
+</ul>
+
+
+<p>Constrains: O(1) additional memory</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">inplaceReverse</span><span class="o">(</span><span class="kt">char</span><span class="o">[]</span> <span class="n">s</span><span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>    <span class="n">reverse</span><span class="o">(</span><span class="n">s</span><span class="o">,</span> <span class="mi">0</span><span class="o">,</span> <span class="n">s</span><span class="o">.</span><span class="na">length</span><span class="o">);</span>
+</span><span class='line'>    <span class="kt">int</span> <span class="n">lower</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+</span><span class='line'>    <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">upper</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">upper</span> <span class="o">&lt;</span> <span class="n">s</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">upper</span><span class="o">++)</span> <span class="o">{</span>
+</span><span class='line'>        <span class="k">if</span> <span class="o">(</span><span class="n">s</span><span class="o">[</span><span class="n">upper</span><span class="o">]</span> <span class="o">==</span> <span class="sc">&#39; &#39;</span><span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>            <span class="n">reverse</span><span class="o">(</span><span class="n">s</span><span class="o">,</span> <span class="n">lower</span><span class="o">,</span> <span class="n">upper</span><span class="o">);</span>
+</span><span class='line'>            <span class="n">lower</span> <span class="o">=</span> <span class="n">upper</span> <span class="o">+</span> <span class="mi">1</span><span class="o">;</span>
+</span><span class='line'>        <span class="o">}</span>
+</span><span class='line'>    <span class="o">}</span>
+</span><span class='line'>    <span class="n">reverse</span><span class="o">(</span><span class="n">s</span><span class="o">,</span> <span class="n">lower</span><span class="o">,</span> <span class="n">s</span><span class="o">.</span><span class="na">length</span><span class="o">);</span>
+</span><span class='line'><span class="o">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="kd">private</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">reverse</span><span class="o">(</span><span class="kt">char</span><span class="o">[]</span> <span class="n">s</span><span class="o">,</span> <span class="kt">int</span> <span class="n">lower</span><span class="o">,</span> <span class="kt">int</span> <span class="n">upper</span><span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>    <span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">lower</span><span class="o">;</span>
+</span><span class='line'>    <span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="n">upper</span> <span class="o">-</span> <span class="mi">1</span><span class="o">;</span>
+</span><span class='line'>    <span class="k">while</span> <span class="o">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="n">j</span><span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>        <span class="kt">char</span> <span class="n">ch</span> <span class="o">=</span> <span class="n">s</span><span class="o">[</span><span class="n">i</span><span class="o">];</span>
+</span><span class='line'>        <span class="n">s</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">=</span> <span class="n">s</span><span class="o">[</span><span class="n">j</span><span class="o">];</span>
+</span><span class='line'>        <span class="n">s</span><span class="o">[</span><span class="n">j</span><span class="o">]</span> <span class="o">=</span> <span class="n">ch</span><span class="o">;</span>
+</span><span class='line'>        <span class="n">i</span><span class="o">++;</span>
+</span><span class='line'>        <span class="n">j</span><span class="o">--;</span>
+</span><span class='line'>    <span class="o">}</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>My <strong>inspiration share</strong> of today is ongoing <strong><em>Better Call Saul</em></strong> TV series. Check it out!</p>
+
+<p>That’s all, folks! See you tomorrow! And remember: what is love? Programming is our true love!</p>
+]]></content>
+    </entry>
     
     <entry>
         <title type="html"><![CDATA[Do it wrong!]]></title>
@@ -120,7 +220,7 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>Today&rsquo;s <strong><em>inspiration share</em></strong> is <strong>On Writing</strong> book by <em>Stephen King</em>.</p>
+<p>Today&rsquo;s <strong>inspiration share</strong> is <strong><em>On Writing</em></strong> book by <em>Stephen King</em>.</p>
 
 <p>That’s all, folks! See you tomorrow! And remember: what is love? Programming is our true love!</p>
 ]]></content>
@@ -151,7 +251,7 @@
 
 <p>Are you confused about me telling you to reduce the entropy of your code while the law says it&rsquo;s impossible? It would be impossible if your code was a <em>closed isolated system</em>. Here is the thing &ndash; when you put an effort into cleaning your code, the entropy of the universe increases more than entropy of your code decreases.</p>
 
-<p>If you want to learn more about laws of the universe, I suggest you to read <strong>A Brief History of Time</strong> by <em>Stephen Hawking</em> &ndash; the <strong><em>inspiration share</em></strong> of today.</p>
+<p>If you want to learn more about laws of the universe, I suggest you to read <strong><em>A Brief History of Time</em></strong> by <em>Stephen Hawking</em> &ndash; the <strong>inspiration share</strong> of today.</p>
 
 <p>That was a programming trivia for today.</p>
 
@@ -418,7 +518,7 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>Today&rsquo;s winner in <strong><em>inspiration share</em></strong> nomination is <strong>Friends</strong> sitcom. Check it out!</p>
+<p>Today&rsquo;s winner in <strong>inspiration share</strong> nomination is <strong><em>Friends</em></strong> sitcom. Check it out!</p>
 
 <p>That&rsquo;s all, folks! See you tomorrow! And remember: what is love? Programming is our true love!</p>
 ]]></content>
