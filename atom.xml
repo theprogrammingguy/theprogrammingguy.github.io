@@ -4,7 +4,7 @@
     <title><![CDATA[Vladyslav Burakov]]></title>
     <link href="http://vladyslav.org/atom.xml" rel="self"/>
     <link href="http://vladyslav.org/"/>
-    <updated>2015-03-06T23:58:19+02:00</updated>
+    <updated>2015-03-07T22:15:03+02:00</updated>
     <id>http://vladyslav.org/</id>
     <author>
         <name><![CDATA[Vladyslav Burakov]]></name>
@@ -30,7 +30,7 @@
 
 <p>That drives you crazy. You spend plenty of time just to find you&rsquo;ve done a really stupid mistake.</p>
 
-<p>Does it sound familiar to you? Frankly, I made such mistake today.</p>
+<p>Does it sound familiar to you? I made one of these just today.</p>
 
 <p>These mistakes have an important property, which makes them different from the first type.</p>
 
@@ -38,7 +38,7 @@
 
 <p>It may or may not be obvious until you make it plain, but it&rsquo;s impossible to write code without bugs! Even carefully reviewing your changes won&rsquo;t help you much.</p>
 
-<p>Are you still not convinced? Let me prove my point. Write a solution for the problem you can find further in this post. There is a single limitation: write it at once in a text editor without syntax highlighting and don&rsquo;t run it until you are sure you&rsquo;ve finished. If your program works correctly without making changes, that will be something really impressive!</p>
+<p>Are you not convinced? Let me prove my point. Write a solution for the problem you can find further in this post. There is a single limitation: write it at once in a text editor without syntax highlighting and don&rsquo;t run it until you are sure you&rsquo;ve finished. If your program works correctly without making changes, that will be something really impressive!</p>
 
 <p>However, it&rsquo;s not about writing a bug-free code. It is about accepting the fact most of our newly written code contains mistakes and dealing with it. It&rsquo;s something that proves the necessity of unit testing and need of reviewing pieces of another&rsquo;s writing.</p>
 
@@ -142,7 +142,7 @@
 
 <p>If you want to create a good game, but don&rsquo;t feel confident in your skills, create a bad one! Create ten bad games! Create a worstest game ever! It will be an incredibly useful experience.</p>
 
-<p>Remember, at some moments of your learning process it&rsquo;s more helpful to <em>start doing</em> that to <em>keep studying</em>.</p>
+<p>Remember, at some moments of your learning process it&rsquo;s more helpful to <em>start doing</em> than to <em>keep studying</em>.</p>
 
 <p>That was a programming trivia for today.</p>
 
