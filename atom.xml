@@ -4,7 +4,7 @@
     <title><![CDATA[Vladyslav Burakov]]></title>
     <link href="http://vladyslav.org/atom.xml" rel="self"/>
     <link href="http://vladyslav.org/"/>
-    <updated>2015-03-07T22:15:03+02:00</updated>
+    <updated>2015-03-08T15:04:09+02:00</updated>
     <id>http://vladyslav.org/</id>
     <author>
         <name><![CDATA[Vladyslav Burakov]]></name>
@@ -12,6 +12,41 @@
     </author>
     <generator uri="http://octopress.org/">Octopress</generator>
 
+    
+    <entry>
+        <title type="html"><![CDATA[On what matters]]></title>
+        <link href="http://vladyslav.org/blog/2015/03/06/on-what-matters/"/>
+        <updated>2015-03-06T12:47:10+02:00</updated>
+        <id>http://vladyslav.org/blog/2015/03/06/on-what-matters</id>
+        <content type="html"><![CDATA[<p>Hi there!</p>
+
+<p>So, you think you&rsquo;ve got a great knowledge of technology? Let me tell you something.</p>
+
+<p><strong>It doesn&rsquo;t matter!</strong></p>
+
+<p>Sorry for disappointing you, but it&rsquo;s true! Information technology is developing so fast most of your knowledge will become outdated very quickly. It&rsquo;s the fly in the ointment of all programmer guys.</p>
+
+<p>What matters is your ability to <em>learn quickly</em>.</p>
+
+<p>It&rsquo;s not only important in programming. It is something that would make your life much easier and enjoyable.</p>
+
+<p>I believe it&rsquo;s important to develop a learning skill. It&rsquo;s possible, actually. You just need to practice learning!</p>
+
+<p>There is a lot of activities around which you can choose for learning. Pick whatever is interesting to you! It&rsquo;s fun, it&rsquo;s entertaining, it would make your life diverse!</p>
+
+<p>It&rsquo;s a great deal by two main reasons. Firstly, it&rsquo;s incredibly easy to gain a large amount of knowledge in a short period of time on the beginning. Have you heard about the <em>learning curve</em>? It proves my point.</p>
+
+<p><img src="http://vladyslav.org/images/learning-curve.png" alt="Learning Curve" /></p>
+
+<p>Secondly, when you gain a knowledge of one activity, you start realize many others. As it says in the samurai book written by <em>Yamamoto Tsunetomo</em>,</p>
+
+<blockquote><p>If you can understand one affair, you will understand eight.</p></blockquote>
+
+<p>There are many wise thoughts in the book, which is called <strong>Hagakure</strong>, meaning <em>Hidden by the Leaves</em>. I was going to make it an <strong><em>inspiration share</em></strong> of the day, but I would rather mention the movie which inspired me to read the book, which is the <strong>Ghost Dog: The Way of the Samurai</strong> by <em>Jim Jarmusch</em>.</p>
+
+<p>That was a programming trivia for today.</p>
+]]></content>
+    </entry>
     
     <entry>
         <title type="html"><![CDATA[Unavoidable mistakes]]></title>
