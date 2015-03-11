@@ -24,7 +24,7 @@ Here goes my main thought for today.
 
 It feels like a right thing to do. I've got so much philosophy to share with the world, and each of my ideas encourages me to continue blogging. I would mention all those reasons to keep going, but each of them deserves a separate item.
 
-I know, it might be kind of disappointing to read a blog about programming full with motivational crap. However, I have some interesting thoughts and feel a strong need in necessity of expressing them.
+I know, it might be kind of disappointing to read a blog about programming full with motivational crap. However, I have some interesting thoughts and feel a strong necessity of expressing them.
 
 That was a programming trivia for today.
 
