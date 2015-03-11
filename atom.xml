@@ -4,7 +4,7 @@
     <title><![CDATA[Vladyslav Burakov]]></title>
     <link href="http://vladyslav.org/atom.xml" rel="self"/>
     <link href="http://vladyslav.org/"/>
-    <updated>2015-03-08T15:04:09+02:00</updated>
+    <updated>2015-03-12T00:05:12+02:00</updated>
     <id>http://vladyslav.org/</id>
     <author>
         <name><![CDATA[Vladyslav Burakov]]></name>
@@ -12,6 +12,88 @@
     </author>
     <generator uri="http://octopress.org/">Octopress</generator>
 
+    
+    <entry>
+        <title type="html"><![CDATA[Getting things done]]></title>
+        <link href="http://vladyslav.org/blog/2015/03/08/how-to-get-things-done/"/>
+        <updated>2015-03-08T23:26:04+02:00</updated>
+        <id>http://vladyslav.org/blog/2015/03/08/how-to-get-things-done</id>
+        <content type="html"><![CDATA[<p>Nice to see you!</p>
+
+<p>I&rsquo;ve <a href="http://vladyslav.org/blog/2015/03/06/on-what-matters/">already told</a> you how easy it is to start learning something new.</p>
+
+<p>For example, I started <a href="https://www.coursera.org/learn/learn-chinese">Chinese for Beginners</a> course on Coursera today. It&rsquo;s not like I have plenty of free time, but I was curious and I&rsquo;d like to have learned Chinese at some point in the future. As well as Japanese and Spanish, maybe.</p>
+
+<!-- more -->
+
+
+<p>Anyway, I need to confess to cheating on you. I promised to write on a daily basis, but actually I&rsquo;ve never managed to produce posts in time. From the moment of creation of this blog I was late by a day with posting until weekends, when, although it was a perfect time to speed up, I decided I had more important things to do and screwed that up.</p>
+
+<p>So, these are strong evidences I&rsquo;m doing something wrong. I could give up like I&rsquo;ve done too many times before, or I could find out a way to get things done. Obviously, I need to simplify my posting routine.</p>
+
+<p>Here goes my main thought for today.</p>
+
+<p><strong>Be flexible to get things done!</strong></p>
+
+<p>It feels like a right thing to do. I&rsquo;ve got so much philosophy to share with the world, and each of my ideas encourages me to continue blogging. I would mention all those reasons to keep going, but each of them deserves a separate item.</p>
+
+<p>I know, it might be kind of disappointing to read a blog about programming full with motivational crap. However, I have some interesting thoughts and feel a strong need in necessity of expressing them.</p>
+
+<p>That was a programming trivia for today.</p>
+
+<p>The <strong><em>inspiration share</em></strong> of today is <strong>The Sound and the Fury</strong> novel written by <strong>William Faulkner</strong>.</p>
+
+<p>P.S. By the way, what I did on weekends is I was watching lectures about <a href="https://www.youtube.com/watch?v=XgQo4JkN4Bw&amp;list=PL3289DD0D0F0CD4A3">Operating Systems and Systems Programming</a>.</p>
+]]></content>
+    </entry>
+    
+    <entry>
+        <title type="html"><![CDATA[Taking advantage]]></title>
+        <link href="http://vladyslav.org/blog/2015/03/07/taking-advantage/"/>
+        <updated>2015-03-07T21:04:02+02:00</updated>
+        <id>http://vladyslav.org/blog/2015/03/07/taking-advantage</id>
+        <content type="html"><![CDATA[<p>Hello!</p>
+
+<p>Today I&rsquo;ll give you a nice tip about how to take an advantage over other people in most activities.</p>
+
+<p>It&rsquo;s simple but efficient tip and, although it&rsquo;s ridiculously obvious, it&rsquo;s still very powerful, because people hardly ever use it in practice.</p>
+
+<!-- more -->
+
+
+<p>It is something that helped me in many situations, and I still use it when it&rsquo;s important for me to succeed.</p>
+
+<p>Make sure you get this right.</p>
+
+<p>It is a great way to take advantage over other people by doing preliminary research on the subject of what you are going to do.</p>
+
+<p>This is pretty obvious, right? Just make and extra effort! This isn&rsquo;t so hard, is it?</p>
+
+<p>Don&rsquo;t learn on your mistakes! Learn on others mistakes!</p>
+
+<p>Let me give you an example.</p>
+
+<p>It was a long time ago when I discovered the existence of online multiplayer games. It was a wonderful experience creating a character in Ragnarok Online video-game, seeing other people playing together, researching a new world.</p>
+
+<p>I spent a month in that beautiful fairy tale. I hardly reached the fifteenth level.</p>
+
+<p>Then things started to become more structured. I found guides on forums how to grow the level of your character, where to find monsters suitable for your level, what skills to improve.</p>
+
+<p>It kind of turned everything upside down. The mysterious atmosphere was ruined, however what I obtained instead was the joy of progressing incredibly fast.</p>
+
+<p>It turned out that I messed up my characteristics, so I had to create another character. In a day I grew more levels than I&rsquo;d grown in a month. It was unbelievable how much time I&rsquo;d wasted before.</p>
+
+<p>That lesson affected my entire life.</p>
+
+<p>After two years when I decided to try poker I spent a week learning rules and strategies before I was ready to actually play my first game, and it wasn&rsquo;t even for real money. I wasn&rsquo;t really good, because there are things you can learn only in practice. However I was definitely better than the most of first time players.</p>
+
+<p>That was a programming trivia for today.</p>
+
+<p>P.S. I mentioned poker because it teached me another valuable lesson, but I&rsquo;ll speak about it another time.</p>
+
+<p>P.P.S. Today&rsquo;s <strong><em>inspiration share</em></strong> is <strong>Scrubs</strong> TV series.</p>
+]]></content>
+    </entry>
     
     <entry>
         <title type="html"><![CDATA[On what matters]]></title>
@@ -23,6 +105,9 @@
 <p>So, you think you&rsquo;ve got a great knowledge of technology? Let me tell you something.</p>
 
 <p><strong>It doesn&rsquo;t matter!</strong></p>
+
+<!-- more -->
+
 
 <p>Sorry for disappointing you, but it&rsquo;s true! Information technology is developing so fast most of your knowledge will become outdated very quickly. It&rsquo;s the fly in the ointment of all programmer guys.</p>
 
@@ -60,6 +145,9 @@
 <p>Some of them you do because of simple lack of knowledge. I <a href="http://vladyslav.org/blog/2015/03/04/do-it-wrong/">suggested</a> you not to worry about them.</p>
 
 <p>Today I want to talk about second type of mistakes. You don&rsquo;t understand you&rsquo;ve done them and they somehow stay invisible to you for a certain period of time.</p>
+
+<!-- more -->
+
 
 <p>Have you ever made such mistakes? You cannot figure out why your code doesn&rsquo;t work. It seems to be correct, but you keep getting an error. You try debugging it, but it appears to be the perfect time for debugger to start fooling around, so it refuses to see your breakpoints.</p>
 
@@ -158,6 +246,9 @@
 <p>I&rsquo;ve got a confession to make. I&rsquo;m not a native English speaker.</p>
 
 <p>It may be obvious by the way I write. There might be a lot of mistakes in my writing, which I overlooked, although I&rsquo;m really pedantic when it comes to revising my work before publishing.</p>
+
+<!-- more -->
+
 
 <p>Some mistakes are there because I just didn&rsquo;t notice them. Others are because I don&rsquo;t have enough knowledge or practice and couldn&rsquo;t spot them even if I was pointed on the sentences in which they occurs.</p>
 
@@ -271,6 +362,9 @@
 <p>Remember the <em>Second Law of Thermodynamics?</em></p>
 
 <blockquote><p>The state of entropy of the entire universe, as a closed isolated system, will always increase over time.</p></blockquote>
+
+<!-- more -->
+
 
 <p><em>Entropy</em> is a measure of disorder. Imagine perfectly written code. All lines appears in their places. The arrangement is perfect. The entropy is incredibly low.</p>
 
@@ -454,6 +548,9 @@
 <p>Don&rsquo;t be shy, come closer! I won&rsquo;t bite you.</p>
 
 <p>The <em>KISS</em> stands for <em>&ldquo;Keep It Simple, Stupid!&rdquo;</em></p>
+
+<!-- more -->
+
 
 <p>What it basically means is that while making your code flexible and extensible don&rsquo;t forget to make it simple.</p>
 
