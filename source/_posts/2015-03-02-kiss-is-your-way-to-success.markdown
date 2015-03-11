@@ -12,6 +12,8 @@ Don't be shy, come closer! I won't bite you.
 
 The *KISS* stands for *"Keep It Simple, Stupid!"*
 
+<!-- more -->
+
 What it basically means is that while making your code flexible and extensible don't forget to make it simple.  
 
 I'd been thinking for a while about how to find the perfect complexity of my code to make it useful not only for concrete practical purpose, but also to cover all its possible usages in case of reusing it later. So a was searching the point when code becomes *complete*. When there is nothing to add internally.

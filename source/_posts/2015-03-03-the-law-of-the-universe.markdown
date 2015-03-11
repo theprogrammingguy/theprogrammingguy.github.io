@@ -11,6 +11,8 @@ Remember the *Second Law of Thermodynamics?*
 
 > The state of entropy of the entire universe, as a closed isolated system, will always increase over time.
 
+<!-- more -->
+
 *Entropy* is a measure of disorder. Imagine perfectly written code. All lines appears in their places. The arrangement is perfect. The entropy is incredibly low.
 
 Now let's talk about program written by monkey. Well, code-monkey, if you wish. The program works somehow, but the code is such a mess it's a miracle it even compiles. You would never agree to add changes to this code. It will explode!

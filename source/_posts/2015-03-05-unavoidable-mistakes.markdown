@@ -14,6 +14,8 @@ Some of them you do because of simple lack of knowledge. I [suggested][1] you no
 
 Today I want to talk about second type of mistakes. You don't understand you've done them and they somehow stay invisible to you for a certain period of time.
 
+<!-- more -->
+
 Have you ever made such mistakes? You cannot figure out why your code doesn't work. It seems to be correct, but you keep getting an error. You try debugging it, but it appears to be the perfect time for debugger to start fooling around, so it refuses to see your breakpoints.
 
 That drives you crazy. You spend plenty of time just to find you've done a really stupid mistake.

@@ -12,6 +12,8 @@ So, you think you've got a great knowledge of technology? Let me tell you someth
 
 **It doesn't matter!**
 
+<!-- more -->
+
 Sorry for disappointing you, but it's true! Information technology is developing so fast most of your knowledge will become outdated very quickly. It's the fly in the ointment of all programmer guys.
 
 What matters is your ability to *learn quickly*.

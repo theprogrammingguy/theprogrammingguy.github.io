@@ -12,6 +12,8 @@ I've got a confession to make. I'm not a native English speaker.
 
 It may be obvious by the way I write. There might be a lot of mistakes in my writing, which I overlooked, although I'm really pedantic when it comes to revising my work before publishing.
 
+<!-- more -->
+
 Some mistakes are there because I just didn't notice them. Others are because I don't have enough knowledge or practice and couldn't spot them even if I was pointed on the sentences in which they occurs.
 
 Frankly speaking, I'm not afraid of mistakes. And you shouldn't be too. They are an unavoidable aspect of learning process.
