@@ -4,7 +4,7 @@
     <title><![CDATA[Vladyslav Burakov]]></title>
     <link href="http://vladyslav.org/atom.xml" rel="self"/>
     <link href="http://vladyslav.org/"/>
-    <updated>2015-03-12T00:22:09+02:00</updated>
+    <updated>2015-03-17T22:51:01+02:00</updated>
     <id>http://vladyslav.org/</id>
     <author>
         <name><![CDATA[Vladyslav Burakov]]></name>
@@ -12,6 +12,38 @@
     </author>
     <generator uri="http://octopress.org/">Octopress</generator>
 
+    
+    <entry>
+        <title type="html"><![CDATA[Moving fast]]></title>
+        <link href="http://vladyslav.org/blog/2015/03/09/moving-fast/"/>
+        <updated>2015-03-09T22:50:00+02:00</updated>
+        <id>http://vladyslav.org/blog/2015/03/09/moving-fast</id>
+        <content type="html"><![CDATA[<p>Welcome!</p>
+
+<p>Let&rsquo;s continue our talk about learning. Just to make it complete.</p>
+
+<p>Assuming you&rsquo;ve passed the fast-learning period of the <a href="http://vladyslav.org/blog/2015/03/06/on-what-matters/"><em>learning curve</em></a>, what would you do to effectively improve your knowledge?</p>
+
+<p>Or, maybe, you&rsquo;re facing a challenging task that needs to be done. What would be the best approach to complete it?</p>
+
+<!-- more -->
+
+
+<p>At first you&rsquo;d try doing it at once, but no matter how much effort would you put into it, it wouldn&rsquo;t be very helpful. Maybe, the task is so complicated if you rushed it you&rsquo;d end up with a huge mess.</p>
+
+<p>Sometimes it&rsquo;s really exhausting to constantly fail in something.</p>
+
+<p>What works for me in such situations is the next principle.</p>
+
+<p><strong>Moving fast is moving slow, but every day.</strong></p>
+
+<p>The only thing you can do to complete something is to find a comfortable tempo and to keep on moving forward. To be most productive you also should <a href="http://vladyslav.org/blog/2015/03/08/how-to-get-things-done/">stay flexible</a>.</p>
+
+<p>That was a programming trivia for today.</p>
+
+<p>The <strong><em>inspiration share of today</em></strong> is <strong>On the Road</strong> novel by <em>Jack Kerouac</em>.</p>
+]]></content>
+    </entry>
     
     <entry>
         <title type="html"><![CDATA[Getting things done]]></title>
